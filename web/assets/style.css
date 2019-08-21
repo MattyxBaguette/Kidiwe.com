@@ -1,0 +1,316 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    height: 100vh;
+    color: #374760;
+}
+
+/**
+* Header
+ */
+
+nav
+{
+    position: fixed;
+    top: 0;
+    width: 80%;
+    font-size: 0.875em;
+}
+
+.custom-padding
+{
+    padding-top: 13vh;
+    padding-left: 8.125vw;
+    padding-right: 7.77vw;
+}
+
+ol
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu
+{
+    float: right;
+    text-align: center;
+}
+
+.menu .login
+{
+    color: #008CCE;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.menu li
+{
+    display: inline-block;
+    padding: 0 24px;
+}
+
+.menu li a
+{
+    text-decoration: none;
+    color: #333333;
+}
+
+.menu li a.highlighted
+{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.menu li a:hover
+{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.logo
+{
+    margin-top: 2.30vh;
+    display: flex;
+    align-items: center;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+a:visited
+{
+    text-decoration: none;
+}
+
+
+/**
+* Parallax
+ */
+
+.lazy
+{
+    opacity: 0;
+    transition: opacity 1s;
+    will-change: opacity;
+}
+
+.lazy.loaded
+{
+    opacity: 1;
+}
+
+.scroll-parallax
+{
+    will-change: transform;
+}
+
+/**
+* Content
+ */
+
+.container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-1
+{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-1 .presentation
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.563em;
+    font-weight: 500;
+    margin-top: 23vh;
+}
+
+.box-1 .presentation img
+{
+    margin-top: -230px;
+}
+
+.box-1 .visual
+{
+    margin-top: 6vh;
+    position: relative;
+    /*width: 734px;*/
+}
+
+.box-1 .visual .bubble
+{
+    /*position: absolute;*/
+    /*margin-right: 5.97vw;*/
+}
+
+.box-1 .visual .image
+{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 160px;
+}
+
+.colored-text
+{
+    color: #008CCE;
+    white-space: pre-line;
+}
+
+button.more
+{
+    height: 7.25vh;
+    width: 13.33vw;
+    background-color: #008CCE;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.chevrons
+{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    cursor: pointer;
+    margin-top: 10vh;
+}
+
+.box-column
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subtitle
+{
+    margin-top: 11.70vh;
+    color: #008CCE;
+    font-size: 1.500em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.title
+{
+    margin-top: 2.79vh;
+    color: #374760;
+    font-size: 2.188em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.introduction
+{
+    margin-top: 6.23vh;
+    color: #636E72;
+    font-size: 1.375em;
+    width: 72.63vw;
+    text-align: center;
+    line-height: 29px;
+}
+
+.box-row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caption
+{
+    margin-top: 13.48vh;
+    color: #636E72;
+    width: 41.66vw;
+    font-size: 1.375em;
+    line-height: 32px;
+}
+
+@keyframes bounce
+{
+    from
+    {
+        transform: translate3d(0, 0, 0);
+    }
+    to
+    {
+        transform: translate3d(0, 20px, 0);
+    }
+}
+
+/**
+* Footer
+ */
+
+footer
+{
+    /*margin-bottom: 3.34vh;*/
+    font-size: 0.688em;
+    font-weight: normal;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+}
+
+footer ul
+{
+    list-style-type: none;
+}
+
+footer ul div
+{
+    /*margin: 0 8.125vw;*/
+}
+
+li
+{
+    margin-top: 2vh;
+    color: #008CCE;
+    font-size: 1.000em;
+}
+
+.category
+{
+    font-weight: 600;
+}
+
+/**
+* About
+ */
+
+.underlined_text
+{
+    border-bottom: 0.7px solid #333333;
+}
+
+.temporary
+{
+    padding-top: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
