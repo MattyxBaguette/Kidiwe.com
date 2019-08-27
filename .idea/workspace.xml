@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e1059c4-fde6-4a11-be61-d2f4f3cd40c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/controllers/work-01.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/work-02.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/work-03.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/work-04.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/work-01.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/work-02.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/work-03.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/work-04.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/child.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/pages/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/partials/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="193" selection-start-line="193" selection-end-line="193" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/partials/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/works.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>galler</find>
+      <find>size</find>
+      <find>conta</find>
+      <find>prese</find>
+      <find>head</find>
+      <find>cust</find>
+      <find>box-row</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/controllers/projects.php" />
+        <option value="$PROJECT_DIR$/controllers/about.php" />
+        <option value="$PROJECT_DIR$/web/.htaccess" />
+        <option value="$PROJECT_DIR$/controllers/about-me.php" />
+        <option value="$PROJECT_DIR$/views/pages/work.php" />
+        <option value="$PROJECT_DIR$/controllers/work.php" />
+        <option value="$PROJECT_DIR$/web/assets/script.js" />
+        <option value="/private/var/folders/pg/v2m1968n4k7cbslq0j33b3dh0000gp/T/fz3temp-2/header.php" />
+        <option value="$PROJECT_DIR$/controllers/work-01.php" />
+        <option value="$PROJECT_DIR$/controllers/work-02.php" />
+        <option value="$PROJECT_DIR$/controllers/work-03.php" />
+        <option value="$PROJECT_DIR$/controllers/work-04.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/controllers/works.php" />
+        <option value="$PROJECT_DIR$/views/pages/work-03.php" />
+        <option value="$PROJECT_DIR$/views/pages/work-04.php" />
+        <option value="$PROJECT_DIR$/views/pages/work-02.php" />
+        <option value="$PROJECT_DIR$/views/pages/work-01.php" />
+        <option value="$PROJECT_DIR$/views/pages/about-me.php" />
+        <option value="/private/var/folders/pg/v2m1968n4k7cbslq0j33b3dh0000gp/T/fz3temp-2/index.php" />
+        <option value="$PROJECT_DIR$/views/pages/works.php" />
+        <option value="$PROJECT_DIR$/controllers/home.php" />
+        <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/views/partials/footer.php" />
+        <option value="$PROJECT_DIR$/views/partials/header.php" />
+        <option value="$PROJECT_DIR$/web/assets/style.css" />
+        <option value="$PROJECT_DIR$/views/pages/home.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Kidiwe.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kidiwe.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kidiwe.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kidiwe.com" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kidiwe.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kidiwe.com" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kidiwe.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kidiwe.com" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kidiwe.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kidiwe.com" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kidiwe.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kidiwe.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kidiwe.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kidiwe.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kidiwe.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kidiwe.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e1059c4-fde6-4a11-be61-d2f4f3cd40c4" name="Default Changelist" comment="" />
+      <created>1560069455094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560069455094</updated>
+      <workItem from="1560069458539" duration="31351000" />
+      <workItem from="1560118259581" duration="5129000" />
+      <workItem from="1566210051104" duration="12902000" />
+      <workItem from="1566375019013" duration="5885000" />
+      <workItem from="1566477073049" duration="2883000" />
+      <workItem from="1566807469207" duration="8722000" />
+      <workItem from="1566913123302" duration="178000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67050000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/pages/404.php" />
+    <entry file="file://$PROJECT_DIR$/controllers/404.php" />
+    <entry file="file://$PROJECT_DIR$/views/pages/projects.php" />
+    <entry file="file://$PROJECT_DIR$/views/pages/experience.php" />
+    <entry file="file://$PROJECT_DIR$/views/pages/watch.php" />
+    <entry file="file://$PROJECT_DIR$/controllers/projects.php" />
+    <entry file="file://$PROJECT_DIR$/controllers/about.php" />
+    <entry file="file:///private/var/folders/pg/v2m1968n4k7cbslq0j33b3dh0000gp/T/fz3temp-2/header.php" />
+    <entry file="file://$PROJECT_DIR$/controllers/work.php" />
+    <entry file="file://$PROJECT_DIR$/web/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/pg/v2m1968n4k7cbslq0j33b3dh0000gp/T/fz3temp-2/script.js" />
+    <entry file="file://$PROJECT_DIR$/web/assets/images/Logo.svg" />
+    <entry file="file://$PROJECT_DIR$/views/pages/work.php" />
+    <entry file="file://$PROJECT_DIR$/controllers/work-02.php" />
+    <entry file="file://$PROJECT_DIR$/../Template-Slim-Twig/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/pg/v2m1968n4k7cbslq0j33b3dh0000gp/T/fz3temp-2/style 2.css" />
+    <entry file="file:///private/var/folders/pg/v2m1968n4k7cbslq0j33b3dh0000gp/T/fz3temp-2/style.css" />
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Portfolio_Galdric/controllers/experience.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Portfolio_Galdric/views/pages/experience.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Portfolio_Galdric/views/partials/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/work-04.php" />
+    <entry file="file://$PROJECT_DIR$/controllers/work-03.php" />
+    <entry file="file://$PROJECT_DIR$/views/pages/work-04.php" />
+    <entry file="file:///private/var/folders/pg/v2m1968n4k7cbslq0j33b3dh0000gp/T/fz3temp-2/index.php" />
+    <entry file="file://$PROJECT_DIR$/views/pages/work-03.php" />
+    <entry file="file://$PROJECT_DIR$/views/pages/work-02.php" />
+    <entry file="file://$PROJECT_DIR$/views/pages/work-01.php" />
+    <entry file="file://$PROJECT_DIR$/views/pages/works.php" />
+    <entry file="file://$PROJECT_DIR$/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/about-me.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/about-me.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/work-01.php" />
+    <entry file="file://$PROJECT_DIR$/views/partials/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/works.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

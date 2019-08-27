@@ -12,70 +12,31 @@ body
 
 nav
 {
-    position: fixed;
-    top: 0;
-    width: 80%;
     font-size: 0.875em;
+    background-color: white;
 }
 
-.custom-padding
+.nav-link
 {
-    padding-top: 13vh;
-    padding-left: 8.125vw;
-    padding-right: 7.77vw;
+    font-weight: 500;
+    color: #374760;
 }
 
-ol
+.navbar-toggler-icon
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
+    background-image: url("images/navbar-toggler-icon.svg");
 }
 
-.menu
+.bubble-bg
 {
-    float: right;
-    text-align: center;
+    background-image: url("images/bubble-1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.menu .login
+.fmarge
 {
-    color: #008CCE;
-    text-decoration: underline;
-    text-underline-position: under;
-}
-
-.menu li
-{
-    display: inline-block;
-    padding: 0 24px;
-}
-
-.menu li a
-{
-    text-decoration: none;
-    color: #333333;
-}
-
-.menu li a.highlighted
-{
-    text-decoration: underline;
-    text-underline-position: under;
-}
-
-.menu li a:hover
-{
-    text-decoration: underline;
-    text-underline-position: under;
-}
-
-.logo
-{
-    margin-top: 2.30vh;
-    display: flex;
-    align-items: center;
+    margin-top: 165px;
 }
 
 a:link
@@ -86,6 +47,12 @@ a:link
 a:visited
 {
     text-decoration: none;
+}
+
+h1
+{
+    font-size: 1.563em;
+    font-weight: 500;
 }
 
 
@@ -114,57 +81,13 @@ a:visited
 * Content
  */
 
-.container
-{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.box-1
-{
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.box-1 .presentation
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 1.563em;
-    font-weight: 500;
-    margin-top: 23vh;
-}
-
-.box-1 .presentation img
-{
-    margin-top: -230px;
-}
-
-.box-1 .visual
-{
-    margin-top: 6vh;
-    position: relative;
-    /*width: 734px;*/
-}
-
-.box-1 .visual .bubble
-{
-    /*position: absolute;*/
-    /*margin-right: 5.97vw;*/
-}
-
-.box-1 .visual .image
-{
-    position: absolute;
-    margin-top: -500px;
-    margin-left: 160px;
-}
+/*.container*/
+/*{*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+/*}*/
 
 .colored-text
 {
@@ -172,8 +95,10 @@ a:visited
     white-space: pre-line;
 }
 
-button.more
+.btn
 {
+    /*text-align: center;*/
+    /*text-decoration: none;*/
     height: 7.25vh;
     width: 13.33vw;
     background-color: #008CCE;
@@ -184,24 +109,29 @@ button.more
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
-.chevrons
+.row
 {
+    margin-top: 67px;
+}
+
+/*.chevrons*/
+/*{*/
+    /*!*display: flex;*!*/
+    /*!*flex-direction: column;*!*/
+    /*cursor: pointer;*/
+    /*margin-top: 10vh;*/
+/*}*/
+
+/*.box-column*/
+/*{*/
     /*display: flex;*/
     /*flex-direction: column;*/
-    cursor: pointer;
-    margin-top: 10vh;
-}
-
-.box-column
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+/*}*/
 
 .subtitle
 {
@@ -229,22 +159,42 @@ button.more
     width: 72.63vw;
     text-align: center;
     line-height: 29px;
+    font-weight: 300;
 }
 
-.box-row
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+/*.box-row*/
+/*{*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+/*}*/
 
 .caption
 {
-    margin-top: 13.48vh;
+    margin-top: 5.69vh;
     color: #636E72;
     width: 41.66vw;
     font-size: 1.375em;
     line-height: 32px;
+}
+
+.text
+{
+    margin-top: 5.69vh;
+    color: #636E72;
+    font-size: 1.375em;
+    line-height: 32px;
+}
+
+.schema
+{
+    margin-top: 12.12vh;
+    /*width: 60%;*/
+}
+
+.schema img
+{
+    width: 80%;
 }
 
 @keyframes bounce
@@ -274,43 +224,4 @@ footer
     display: flex;
     flex-direction: row;
     /*justify-content: space-between;*/
-}
-
-footer ul
-{
-    list-style-type: none;
-}
-
-footer ul div
-{
-    /*margin: 0 8.125vw;*/
-}
-
-li
-{
-    margin-top: 2vh;
-    color: #008CCE;
-    font-size: 1.000em;
-}
-
-.category
-{
-    font-weight: 600;
-}
-
-/**
-* About
- */
-
-.underlined_text
-{
-    border-bottom: 0.7px solid #333333;
-}
-
-.temporary
-{
-    padding-top: 23%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
