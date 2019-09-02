@@ -1,10 +1,29 @@
 // Scroll to a certain element
-$see_more = document.querySelector('.see-more');
-$gallery = document.querySelector('.box-gallery');
+//$see_more = document.querySelector('.see-more');
+//$gallery = document.querySelector('.box-gallery');
 
-$see_more.addEventListener("click", ()=> $gallery.scrollIntoView({
-        behavior: 'smooth', block: "end", inline: "nearest"
-    }));
+ScrollReveal().reveal('.subtitle', { delay: 750 });
+
+ScrollReveal().reveal('.title', { delay: 750 });
+
+ScrollReveal().reveal('.introduction', { delay: 750 });
+
+ScrollReveal().reveal('.caption', { delay: 750 });
+
+ScrollReveal().reveal('.right-caption', { delay: 750 });
+
+ScrollReveal().reveal('.visual', { delay: 750 });
+
+ScrollReveal().reveal('.text', { delay: 750 });
+
+ScrollReveal().reveal('.partners', { delay: 750, interval: 200 });
+
+
+//ScrollReveal().reveal('.introduction', { delay: 500 });
+
+//$see_more.addEventListener("click", ()=> $gallery.scrollIntoView({
+//        behavior: 'smooth', block: "end", inline: "nearest"
+//    }));
 
 const lazyElements = Array.from(document.querySelectorAll('.lazy'));
 
@@ -17,7 +36,7 @@ for (const lazyElement of lazyElements) {
 }
 
 /*
-* Scroll parallax
+ * Scroll parallax
  */
 
 const scrollParallaxes = document.querySelectorAll('.scroll-parallax');
@@ -34,34 +53,31 @@ window.addEventListener('scroll', () => {
 });
 
 /*
-* Sizes
-*/
+ * Sizes
+ */
 
 let windowWidth = window.innerWidth;
 let windowHeight = window.innerHeight;
 
-window.addEventListener('resize', () =>
-{
+window.addEventListener('resize', () => {
     windowWidth = window.innerWidth;
     windowHeight = window.innerHeight;
 });
 
 /*
-* Cursor parallax
-*/
+ * Cursor parallax
+ */
 
 const cursorParallaxes = document.querySelectorAll('.cursor-parallax');
 
-window.addEventListener('mousemove', (_event) =>
-{
+window.addEventListener('mousemove', (_event) => {
     const ratioX = _event.clientX / windowWidth - 0.5;
     const ratioY = _event.clientY / windowHeight - 0.5;
 
-    for (const cursorParallax of cursorParallaxes)
-    {
+    for (const cursorParallax of cursorParallaxes) {
         const depth = parseFloat(cursorParallax.dataset.cursorDepth);
-        const translateX = - ratioX * depth * 100;
-        const translateY = - ratioY * depth * 100;
+        const translateX = -ratioX * depth * 100;
+        const translateY = -ratioY * depth * 100;
 
         cursorParallax.style.transform = `translate(${translateX}%, ${translateY}%)`;
         console.log(depth);

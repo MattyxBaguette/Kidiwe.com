@@ -1,0 +1,436 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    height: 100vh;
+    color: #374760;
+}
+
+.cursor
+{
+    border-radius: 50%;
+    background-color: #008CCE;
+}
+
+/**
+* Header
+ */
+
+nav
+{
+    font-size: 0.875em;
+    background-color: white;
+}
+
+.nav-link
+{
+    margin-top: 46px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-weight: 500;
+    color: #374760;
+}
+
+.nav-link:hover
+{
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #374760;
+}
+
+.login
+{
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #008CCE;
+}
+
+.login:hover
+{
+    color: #008CCE;
+}
+
+.navbar-toggler-icon
+{
+    background-image: url("images/navbar-toggler-icon.svg");
+}
+
+.bubble-1-bg
+{
+    background-image: url("images/bubble-1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bubble-2-bg
+{
+/*    padding: 50px !important;*/
+    background-image: url("images/bubble-2.png");
+/*    min-height: 100%;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bubble-3-bg
+{
+    background-image: url("images/bubble-3-big.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bubble-4-bg
+{
+    background-image: url("images/bubble-4.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bubble-5-bg
+{
+    background-image: url("images/bubble-5.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bubble-6-bg
+{
+    background-image: url("images/bubble-6.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bubble-7-bg
+{
+    background-image: url("images/bubble-7.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bubble-8-bg
+{
+    background-image: url("images/bubble-8.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.child
+{
+    margin-top: -30px;
+}
+
+marge
+{
+    margin-bottom: 80px;
+}
+
+.fmarge
+{
+    margin-top: 173px !important;
+}
+
+h1
+{
+    font-size: 1.563em;
+    font-weight: 500;
+}
+
+.catch-phrase
+{
+    padding-bottom: 5%;
+}
+
+/**
+* Parallax
+ */
+
+.lazy
+{
+    opacity: 0;
+    transition: opacity 1s;
+    will-change: opacity;
+}
+
+.lazy.loaded
+{
+    opacity: 1;
+}
+
+.scroll-parallax
+{
+    will-change: transform;
+}
+
+/**
+* Content
+ */
+
+.colored-text
+{
+    color: #008CCE;
+    white-space: pre-line;
+}
+
+button
+{
+    height: 7.25vh;
+    width: 13.33vw;
+    background-color: #008CCE;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.btn
+{
+    text-align: center;
+    text-decoration: none;
+    height: 7.25vh;
+    width: 13.33vw;
+    background-color: #008CCE;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    line-height: 6vh;
+}
+
+a.btn:hover
+{
+    background-color: white;
+    color: #008CCE;
+    border: 1px solid #008CCE;
+    border-radius: 3px;
+}
+
+.row
+{
+    margin-top: 67px;
+}
+
+.chevrons
+{
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+    cursor: pointer;
+/*    margin-top: 10vh;*/
+}
+
+.subtitle
+{
+    color: #008CCE;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.title
+{
+    margin-top: 2.79vh;
+    color: #374760;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.introduction
+{
+    margin-top: 6.23vh;
+    color: #636E72;
+    font-size: 1.375em;
+    width: 72.63vw;
+    text-align: center;
+    line-height: 29px;
+    font-weight: 300;
+}
+
+.caption
+{
+    color: #636E72;
+    font-size: 1.375em;
+    line-height: 32px;
+    text-align: justify;
+    text-justify: inter-character;
+    padding: 30px;
+}
+
+.left-subtitle
+{
+    color: #008CCE;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.left-title
+{
+    margin-top: 2.79vh;
+    padding-bottom: 6.23vh;
+    color: #374760;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.left-introduction
+{
+    padding-bottom: 6.23vh;
+    color: #636E72;
+    font-size: 22px;
+    text-align: left;
+    line-height: 29px;
+    font-weight: 300;
+}
+
+.right-subtitle
+{
+    color: #008CCE;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.right-title
+{
+    margin-top: 2.79vh;
+    padding-bottom: 6.23vh;
+    color: #374760;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.right-caption
+{
+    margin-top: 5.69vh;
+    color: #636E72;
+    font-size: 1.375em;
+    line-height: 32px;
+    text-align: justify;
+    text-justify: inter-character;
+    padding: 30px;
+}
+
+.no-sub-right-title
+{
+    color: #374760;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.no-sub-left-title
+{
+    padding-bottom: 49px;
+    color: #374760;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text
+{
+    margin-top: 5.69vh;
+    color: #636E72;
+    font-size: 1.375em;
+    line-height: 32px;
+}
+
+.round
+{
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.schema
+{
+    margin-top: 12.12vh;
+}
+
+.chevrons
+{
+    margin-top: 8vh;
+    animation: bounce 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.container
+{
+    margin-top: 11.70vh;
+}
+
+.no-margin
+{
+    margin-top: 0 !important;
+}
+
+@keyframes bounce
+{
+    from
+    {
+        transform: translate3d(0, 0, 0);
+    }
+    to
+    {
+        transform: translate3d(0, 20px, 0);
+    }
+}
+
+.sentence
+{
+    margin-top: 41px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+/**
+* Footer
+ */
+
+footer
+{
+    font-size: 0.688em;
+    font-weight: normal;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #EAF6FB;
+    background-image: url(images/wave.svg);
+}
+
+footer a:hover
+{
+    color: #008CCE;
+}
+
+.full-logo
+{
+    margin-top: -90px;
+}
+
+.left-footer
+{
+    padding-top: 20px;
+}
+
+h6,
+p,
+a
+{
+    color: #008CCE;
+}
