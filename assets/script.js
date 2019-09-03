@@ -8,10 +8,6 @@ document.addEventListener('mousemove', (e) => {
     
     $cursor.style.left = x + 'px';
     $cursor.style.top = y + 'px';
-    
-    console.log(x);
-    console.log(y);
-
 });
 
 // Scroll reveal
