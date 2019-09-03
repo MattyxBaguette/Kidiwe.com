@@ -8,6 +8,13 @@ body
     cursor: none;
 }
 
+.screen
+{
+    position: fixed;
+    height: 100%;
+    z-index: 999;
+}
+
 .cursor
 {
     position: absolute;
@@ -19,11 +26,9 @@ body
     z-index: 999;
 }
 
-.screen
+a:hover
 {
-    position: fixed;
-    height: 100%;
-    z-index: 999;
+    cursor: none;
 }
 
 /**
@@ -47,20 +52,27 @@ nav
 
 .nav-link:hover
 {
+/*
     text-decoration: underline;
     text-underline-position: under;
+*/
+    border-bottom: 1px solid #374760;
     color: #374760;
 }
 
 .login
 {
+/*
     text-decoration: underline;
     text-underline-position: under;
+*/
+    border-bottom: 1px solid #008CCE;
     color: #008CCE;
 }
 
 .login:hover
 {
+    border-bottom: 1px solid #008CCE;
     color: #008CCE;
 }
 
@@ -192,20 +204,6 @@ h1
     white-space: pre-line;
 }
 
-button
-{
-    height: 7.25vh;
-    width: 13.33vw;
-    background-color: #008CCE;
-    border: none;
-    border-radius: 3px;
-    color: white;
-    font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-}
-
 .btn
 {
     text-align: center;
@@ -230,6 +228,7 @@ a.btn:hover
     color: #008CCE;
     border: 1px solid #008CCE;
     border-radius: 3px;
+    transition: 0.3s;
 }
 
 .row
@@ -447,9 +446,4 @@ p,
 a
 {
     color: #008CCE;
-}
-
-a:hover
-{
-    cursor: none;
 }
