@@ -8,8 +8,19 @@ body
 
 .cursor
 {
+    position: absolute;
     border-radius: 50%;
     background-color: #008CCE;
+    height: 10px;
+    width: 10px;
+    pointer-events: none;
+    z-index: 99;
+}
+
+.screen
+{
+    position: fixed;
+    height: 100%;
 }
 
 /**
