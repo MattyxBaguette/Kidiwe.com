@@ -16,18 +16,18 @@ document.addEventListener('mousemove', (e) => {
 
 // Scroll reveal
 
-ScrollReveal().reveal('.subtitle', { delay: 300 });
+ScrollReveal().reveal('.subtitle', { delay: 100 });
 
-ScrollReveal().reveal('.title', { delay: 300 });
+ScrollReveal().reveal('.title', { delay: 100 });
 
-ScrollReveal().reveal('.introduction', { delay: 300 });
+ScrollReveal().reveal('.introduction', { delay: 100 });
 
-ScrollReveal().reveal('.caption', { delay: 300 });
+ScrollReveal().reveal('.caption', { delay: 100 });
 
-ScrollReveal().reveal('.right-caption', { delay: 300 });
+ScrollReveal().reveal('.right-caption', { delay: 100 });
 
-ScrollReveal().reveal('.visual', { delay: 300 });
+ScrollReveal().reveal('.visual', { delay: 100 });
 
-ScrollReveal().reveal('.text', { delay: 300 });
+ScrollReveal().reveal('.text', { delay: 100 });
 
-ScrollReveal().reveal('.partners', { delay: 300, interval: 150 });
+ScrollReveal().reveal('.partners', { delay: 100, interval: 150 });
