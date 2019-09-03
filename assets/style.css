@@ -248,14 +248,6 @@ a.btn:hover
     margin-top: 67px;
 }
 
-.chevrons
-{
-/*    !*display: flex;*!*/
-/*    !*flex-direction: column;*!*/
-    cursor: pointer;
-/*    margin-top: 10vh;*/
-}
-
 .subtitle
 {
     color: #008CCE;
@@ -435,7 +427,12 @@ footer
     display: flex;
     flex-direction: row;
     background-color: #EAF6FB;
-    background-image: url(images/wave.svg);
+/*    background-image: url(images/wave.svg);*/
+}
+
+footer.container
+{
+        background-color: #EAF6FB;
 }
 
 footer a:hover
