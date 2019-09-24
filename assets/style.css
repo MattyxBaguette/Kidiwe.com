@@ -1,3 +1,8 @@
+html
+{
+    cursor: none;
+}
+
 body
 {
     font-family: 'Montserrat', sans-serif;
@@ -6,24 +11,6 @@ body
     height: 100vh;
     color: #374760;
     cursor: none;
-}
-
-.screen
-{
-    position: fixed;
-    height: 100%;
-    z-index: 999;
-}
-
-.cursor
-{
-    position: absolute;
-    border-radius: 50%;
-    background-color: #008CCE;
-    height: 10px;
-    width: 10px;
-/*    pointer-events: none;*/
-    z-index: 999;
 }
 
 a:hover
@@ -35,6 +22,59 @@ a.nav-link
 {
     padding-left: 0 !important;
     padding-right: 0 !important;
+}
+
+/**
+*   Lazy load
+ */
+
+.lazy
+{
+    opacity: 1;
+    transition: opacity 1s;
+    will-change: opacity;
+}
+
+.lazy.loaded
+{
+    opacity: 1;
+}
+
+
+/**
+*   Custom Cursor
+ */
+
+.screen
+{
+    position: fixed;
+    height: 100%;
+    z-index: 999;
+}
+
+.circle
+{
+    position: absolute;
+    border: 1px solid #008CCE;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    pointer-events: none;
+    transition-duration: 180ms;
+    transition-timing-function: ease-out;
+    z-index: 999;
+}
+
+.cursor
+{
+    position: absolute;
+    margin: 11.5px;
+    border-radius: 50%;
+    background-color: #008CCE;
+    height: 6.5px;
+    width: 6.5px;
+    pointer-events: none;
+    z-index: 999;
 }
 
 /**
@@ -91,72 +131,6 @@ nav
 .navbar-toggler-icon
 {
     background-image: url("images/navbar-toggler-icon.svg");
-}
-
-.bubble-1-bg
-{
-    background-image: url("images/bubble-1.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bubble-2-bg
-{
-/*    padding: 50px !important;*/
-    background-image: url("images/bubble-2.png");
-/*    min-height: 100%;*/
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bubble-3-bg
-{
-    background-image: url("images/bubble-3-big.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bubble-4-bg
-{
-    background-image: url("images/bubble-4.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bubble-5-bg
-{
-    background-image: url("images/bubble-5.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bubble-6-bg
-{
-    background-image: url("images/bubble-6.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bubble-7-bg
-{
-    background-image: url("images/bubble-7.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bubble-8-bg
-{
-    background-image: url("images/bubble-8.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .child
@@ -367,15 +341,10 @@ a.btn:hover
     line-height: 32px;
 }
 
-.round
-{
-    border: 3px solid white;
-    border-radius: 15px;
-}
-
 .schema
 {
     margin-top: 12.12vh;
+    margin-left: -30px;
 }
 
 .chevrons
@@ -413,6 +382,11 @@ a.btn:hover
     margin-top: 41px;
     font-weight: 500;
     font-size: 22px;
+}
+
+.bottom
+{
+    margin-bottom: 90px;
 }
 
 /**

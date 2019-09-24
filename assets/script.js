@@ -1,14 +1,43 @@
+
+// Lazy image load
+
+const lazyElements = Array.from(document.querySelectorAll('.lazy'));
+
+for (const lazyElement of lazyElements) {
+    const image = document.createElement('img');
+    image.addEventListener('load', () => {
+        lazyElement.style.backgroundImage = `url(${lazyElement.dataset.src})`;
+        lazyElement.classList.add('loaded');
+    })
+    image.setAttribute('src', lazyElement.dataset.src);
+}
+
 // Custom cursor
 
-let $cursor = document.querySelector('.cursor');
+let clientX = -100;
+let clientY = -100;
 
-document.addEventListener('mousemove', (e) => {
-    x = e.clientX;
-    y = e.clientY;
-    
-    $cursor.style.left = x + 'px';
-    $cursor.style.top = y + 'px';
-});
+const outerCursor = document.querySelector('.circle');
+const innerCursor = document.querySelector('.cursor');
+
+const Cursor = () => {
+
+    document.addEventListener("mousemove", e => {
+        clientX = e.clientX;
+        clientY = e.clientY;
+    });
+
+    const render = () => {
+        outerCursor.style.transform = `translate(${clientX}px, ${clientY}px)`;
+        innerCursor.style.transform = `translate(${clientX}px, ${clientY}px)`;
+
+        requestAnimationFrame(render);
+    };
+
+    requestAnimationFrame(render);
+};
+
+Cursor();
 
 // Scroll reveal
 
