@@ -208,6 +208,11 @@ h1
     line-height: 6vh;
 }
 
+a
+{
+    color: white;
+}
+
 a.btn:hover
 {
     background-color: white;

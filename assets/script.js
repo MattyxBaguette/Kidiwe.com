@@ -4,11 +4,13 @@
 const lazyElements = Array.from(document.querySelectorAll('.lazy'));
 
 for (const lazyElement of lazyElements) {
+
     const image = document.createElement('img');
+
     image.addEventListener('load', () => {
         lazyElement.style.backgroundImage = `url(${lazyElement.dataset.src})`;
         lazyElement.classList.add('loaded');
-    })
+    });
     image.setAttribute('src', lazyElement.dataset.src);
 }
 
@@ -38,6 +40,17 @@ const Cursor = () => {
 };
 
 Cursor();
+
+// Scroll to a certain element
+
+// $see_more = document.querySelector('.btn');
+// $learning_expedition = document.querySelector('.learning-expedition');
+// // $learning_expedition = document.getElementById('learning-expedition');
+//
+// $see_more.addEventListener("click", ()=> $learning_expedition.scrollIntoView({
+//     behavior: 'smooth', block: "end", inline: "nearest"
+// }));
+
 
 // Scroll reveal
 
