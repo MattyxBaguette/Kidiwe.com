@@ -55,7 +55,8 @@ a.nav-link
 .circle
 {
     position: absolute;
-    border: 1px solid #008CCE;
+    /*border: 1px solid #008CCE;*/
+    background-color: rgba(0, 140, 206, 0.2);
     border-radius: 50%;
     height: 30px;
     width: 30px;

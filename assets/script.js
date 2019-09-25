@@ -8,10 +8,10 @@ for (const lazyElement of lazyElements) {
     const image = document.createElement('img');
 
     image.addEventListener('load', () => {
-        lazyElement.style.backgroundImage = `url(${lazyElement.dataset.src})`;
         lazyElement.classList.add('loaded');
     });
     image.setAttribute('src', lazyElement.dataset.src);
+    lazyElement.appendChild(image)
 }
 
 // Custom cursor
